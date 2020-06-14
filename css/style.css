@@ -1,0 +1,9 @@
+/* body {
+        background-image: url("https://f6313231-cf01-44f1-bb94-1cdc80bbf0a1.ws-eu01.gitpod.io/files/download/?id=f558df28-2809-4048-b64e-5004cc56ac52");
+    } */
+
+.bg-body {
+    height: 100vh;
+    background: url("../images/bg.jpg") no-repeat center center fixed;
+    
+}
