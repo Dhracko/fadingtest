@@ -7,3 +7,9 @@
     background: url("../images/bg.jpg") no-repeat center center fixed;
     
 }
+
+.background-gradient {
+    filter: blur(5px);
+    background: inherit;
+    
+}
