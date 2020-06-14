@@ -4,9 +4,25 @@
     padding: 0.5px;
 }
 
-.background-gradient {
-    filter: blur(7px);
+.background-gradient-left {
+    /* filter: blur(7px);
     background: inherit;
-    padding: 0px;
+    padding: 0px; */
     
+    background: linear-gradient( to left, rgba(76, 0, 255, 0.158), rgb(230, 231, 255));
+    opacity: 0.5;
+    z-index: 2;
+    filter: blur(10px);
 }
+
+.background-gradient-right {
+    /* filter: blur(7px);
+    background: inherit;
+    padding: 0px; */
+    
+    background: linear-gradient( to right, rgba(76, 0, 255, 0.158), rgb(230, 231, 255));
+    opacity: 0.5;
+    z-index: 2;
+    filter: blur(10px);
+}
+
