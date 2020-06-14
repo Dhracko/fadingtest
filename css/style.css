@@ -5,11 +5,12 @@
 .bg-body {
     height: 100vh;
     background: url("../images/bg.jpg") no-repeat center center fixed;
-    
+    padding: 0.5px;
 }
 
 .background-gradient {
-    filter: blur(5px);
+    filter: blur(7px);
     background: inherit;
+    padding: 0px;
     
 }
